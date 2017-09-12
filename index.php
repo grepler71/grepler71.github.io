@@ -8,26 +8,20 @@
 
           <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 
-          <link rel="stylesheet" type="text/css" href="../style/mostyle.css">
+          <link rel="stylesheet" type="text/css" href="style.css">
 
           <title>
-             MedOne Pharmacy Services
+             
           </title>
 
       </head>
 
-      <body lang=EN-US style='tab-interval:.5in'>
+      <body>
             <header>
-              <a href="."> 
-                    <img align="center" src="../images/MedOneBig.jpg" alt="MedOne Pharmacy logo" width="250" height="90">
-                  </a>
-
-                  <div class="headborder"></div>
-                  
-                  <br><br>
+            
             </header>
 
-            <main style="position: relative;">
+            <main>
                    
                           <div>
 
