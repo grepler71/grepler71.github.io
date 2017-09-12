@@ -2,7 +2,7 @@
 
 require("vendor/autoload.php");
 
-include("samplecode/paymenttransactions/authorize-credit-card.php");
+include("authorize-credit-card.php");
 
 function check_input($d_ata){
     $d_ata = trim($d_ata);
@@ -25,6 +25,7 @@ $state = check_input($_POST['state']);
 $zip = check_input($_POST['zip']);
 $amount = check_input($_POST['amount']);
 
+//call this function from the authorize-credit-card.php - make sure to edit the code in that file accordingly.
 authorizeCreditCard($ccnumber,$expdate,$cvvcode,$fname,$lname,$addr1,$city,$state,$zip,$email,$amount);
 
 ?>
